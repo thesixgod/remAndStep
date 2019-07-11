@@ -1,0 +1,147 @@
+html, body{
+	height: 100%;
+
+}
+html{ font-size: 50px !important; }
+.swiper-container{
+	height: 100%;
+}
+.slide1{
+	background: url(../img/bg1.png) no-repeat center center;
+	background-size: 100% 100%;
+	position: relative;
+}
+.slide2{
+	background: url(../img/bg2.png) no-repeat center center;
+	background-size: 100% 100%;
+	position: relative;
+}
+.slide3{
+	background: url(../img/bg3.png) no-repeat center center;
+	background-size: 100% 100%;
+	position: relative;
+}
+.slide4{
+	background: url(../img/bg4.png) no-repeat center center;
+	background-size: 100% 100%;
+	position: relative;
+}
+.slide1-logo{
+	width: 5.02rem;
+	height: 2.3rem;
+	background: url(../img/kv1.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin:0 auto;
+	margin-top: 1.8rem;
+}
+.slide1-btn{
+	width: 3.43rem;
+	height: 1.17rem;
+	background: url(../img/start.png) no-repeat center center;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -1.715rem;
+	bottom:0.8rem;
+}
+.slide2-logo{
+	width: 5.92rem;
+	height: 1.67rem;
+	background: url(../img/title1.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin:0 auto;
+}
+.slide2-btn{
+	width: 4.96rem;
+	height: 1.14rem;
+	background: url(../img/next.png) no-repeat center center;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.48rem;
+	bottom:0.46rem;
+}
+.slide2-video-wrap{
+	width: 6.52rem;
+	height: 8.79rem;
+	background: url(../img/videobg.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	margin-top: 0.6rem;
+
+}
+.slide2-video,.slide3-video{
+	width: 100%;
+    height: 8.58rem;
+    margin-top: 0.1rem;
+}
+.slide3-logo{
+	width: 5.92rem;
+	height: 1.67rem;
+	background: url(../img/title2.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin:0 auto;
+}
+.slide3-btn{
+	width: 4.96rem;
+	height: 1.14rem;
+	background: url(../img/over.png) no-repeat center center;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.48rem;
+	bottom:0.46rem;
+}
+.slide3-video-wrap{
+	width: 6.52rem;
+	height: 8.79rem;
+	background: url(../img/videobg.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	margin-top: 0.6rem;
+
+}
+.slide4-card{
+	width: 6.26rem;
+	height: 10.78rem;
+	background: url(../img/img.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	margin-top: 0.6rem;
+}
+.slide4-btn{
+	width: 4.19rem;
+	height: 1.01rem;
+	background: url(../img/more.png) no-repeat center center;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.09rem;
+	bottom:0.46rem;
+}
+
+.steps_anim {
+  position: absolute;
+  width: 1.4rem;
+  height: 1.4rem;
+  top: 50%;
+  left: 50%; 
+  margin: -0.7rem 0 0 -0.7rem; 
+}
+.html {
+	width: 140px; 
+	height: 140px; 
+}
+.img { 
+	width: 140px; 
+	height: 4620px; 
+	background: url(../img/gj-step-01.png) 0 0 no-repeat; 
+	background-size: 140px 4620px; 
+	animation: step 2s steps(33) infinite; 
+}
+
+@keyframes step {
+  100% {
+    background-position: 0 -4620px;
+  }
+}
