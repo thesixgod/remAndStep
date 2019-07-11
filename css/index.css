@@ -122,26 +122,26 @@ html{ font-size: 50px !important; }
 
 .steps_anim {
   position: absolute;
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 1.8rem;
+  height: 3rem;
   top: 50%;
   left: 50%; 
-  margin: -0.7rem 0 0 -0.7rem; 
+  margin: -1.5rem 0 0 -0.9rem; 
 }
 .html {
-	width: 140px; 
-	height: 140px; 
+	width: 180px; 
+	height: 300px; 
 }
 .img { 
-	width: 140px; 
-	height: 4620px; 
-	background: url(../img/gj-step-01.png) 0 0 no-repeat; 
-	background-size: 140px 4620px; 
-	animation: step 2s steps(33) infinite; 
+	width: 180px; 
+	height: 300px; 
+	background: url(../img/charector.png) 0 0 no-repeat; 
+	background-size: 1260px 300px; 
+	animation: step 1s steps(7) infinite; 
 }
 
 @keyframes step {
   100% {
-    background-position: 0 -4620px;
+    background-position: -1260px 0px;
   }
 }
